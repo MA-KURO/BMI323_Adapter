@@ -1,0 +1,33 @@
+# 用于kicad文件夹
+*
+!*/
+
+# 不上传的一级目录
+/*backups/
+
+# 需要上传的目录及其下文件和子文件夹
+!.vscode/**
+!image/**
+!test image/**
+!production/**
+
+# 需要上传的文件
+!*.kicad_pcb
+!*.kicad_pro
+!*.kicad_sch
+!*.pdf
+!*.xlsx
+!*.md
+
+# 上传自定义规则文件
+!*.kicad_dru
+
+# 去除自动保存文件
+~$*
+*autosave*
+
+# 本文件需要上传
+!.gitignore
+
+# 开源协议需要上传
+!LICENSE
